@@ -1,5 +1,3 @@
-# Each individual student will have two attributes, a name and a grade
-
 class Student
 
   attr_accessor :name, :grade

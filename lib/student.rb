@@ -31,4 +31,6 @@ class Student
     DB[:conn].execute(sql)
   end
 
+  def self.save
+
 end

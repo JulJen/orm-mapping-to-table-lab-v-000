@@ -9,7 +9,7 @@ class Student
   def intitialize(name, grade, id=nil)
     @id = id
     @name = name
-    @album = album
-  end 
+    @grade = grade
+  end
 
 end

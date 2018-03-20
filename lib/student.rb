@@ -7,6 +7,9 @@ class Student
   #  with DB[:conn]
 
   def intitialize(name, grade, id=nil)
-    @name =  name
+    @id = id
+    @name = name
+    @album = album
+  end 
 
 end
